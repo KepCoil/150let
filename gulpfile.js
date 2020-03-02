@@ -25,6 +25,8 @@ gulp.task('js', function() {
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.min.js',
 		'app/libs/mmenu-js/mmenu.js',
+		'app/libs/bootstrap4/js/bootstrap.js',
+		'app/libs/jquery-cookie/jquery.cookie.min.js',
 		'app/js/common.js'
 		])
 	.pipe(concat('scripts.min.js'))

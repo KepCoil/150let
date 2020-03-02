@@ -1,0 +1,43 @@
+@import "vars"
+
+
+// font-size (rem)
+html[data-font-size="default"]
+	font-size: 100%
+html[data-font-size="medium"]
+	font-size: 120%
+html[data-font-size="large"]
+	font-size: 150%
+
+
+
+// letter-spacing
+html[data-letter-spacing="default"]
+	body
+		#wrapwrap
+			letter-spacing: normal
+html[data-letter-spacing="medium"]
+	body
+		#wrapwrap
+			letter-spacing: 2px
+html[data-letter-spacing="large"]
+	body
+		#wrapwrap
+			letter-spacing: 5px
+
+
+
+// global
+html[data-spec-vers="enable"]
+	.main-menu
+		height: auto
+	.personal-info__photo-wrap
+		width: 130px !important
+		height: 130px !important
+
+
+// themes
+@import "spec-sersion/white-theme"
+@import "spec-sersion/black-theme"
+@import "spec-sersion/blue-theme"
+@import "spec-sersion/disable-img"
